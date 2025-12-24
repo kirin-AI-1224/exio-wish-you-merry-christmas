@@ -50,9 +50,9 @@ const UIOverlay: React.FC<UIOverlayProps> = ({ onUnleash }) => {
 
       <footer className="flex flex-col items-center gap-4">
         <div className="flex justify-center items-center tracking-[0.5em] uppercase w-full">
-          <div className="text-white text-[16px]">BY TRADFI FOR TRADFI</div>
+          <div className="text-emerald-400 text-[16px]">BY TRADFI FOR TRADFI</div>
         </div>
-          <div className="text-white/60 text-[10px] tracking-[0.3em]">CREATED BY KIRIN</div>
+          <div className="text-white/60 text-[10px] tracking-[0.3em]">CREATED BY K3LVIN</div>
       </footer>
     </div>
   );
