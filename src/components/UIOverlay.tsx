@@ -40,7 +40,7 @@ const UIOverlay: React.FC<UIOverlayProps> = ({ onUnleash }) => {
           className="pointer-events-auto group relative px-12 py-4 border border-white/10 bg-white/5 backdrop-blur-3xl rounded-none transition-all hover:bg-white/10 flex flex-col items-center gap-2"
         >
           <span className="relative z-10 text-[12px] tracking-[0.5em] uppercase text-white/70 group-hover:text-emerald-400 transition-colors">
-            {isUnleashed ? '[ COMPRESS ENERGY ]' : '[ RELEASE ENERGY ]'}
+            {isUnleashed ? '[COMPRESS ENERGY]' : '[RELEASE ENERGY]'}
           </span>
           <span className="relative z-10 text-[7px] tracking-[0.35em] uppercase text-white/30 font-light group-hover:text-white/40 transition-colors">
             MAY THE GROWTH BE WITH YOU
